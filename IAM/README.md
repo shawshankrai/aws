@@ -13,6 +13,7 @@ Identity and Access Management. A core component of every AWS service is securit
     - PCI (Payment card industry) Compliant
     - Multi Factor Auth
     - Billing: Free
+
 2. IAM Components:
     - User: An Individual entity with a defined username. Better is to not use root user
         - Access type: 
@@ -33,9 +34,12 @@ Identity and Access Management. A core component of every AWS service is securit
     - Identity Providers: 
         - Integrates external identity database
         - Can assign permissions to users in that external IdP
+
 3. IAM Access Methods:
 	- AWS Management Console
 	- AWS CLI
 	- AWS SDKs
 	- IAM HTTPS API
 
+4. Resources:
+    - ![IAM Commands](https://github.com/shawshankrai/aws/blob/main/IAM/IAMCommands.txt)
