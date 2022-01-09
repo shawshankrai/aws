@@ -4,7 +4,7 @@ Identity and Access Management. A core component of every AWS service is securit
 
 | Identity  | Access | Management |
 | ------------- | ------------- | ------------- |
-| Who are you?  | what you can do?  | Admin Off  |
+| Who are you?  | what you can do?  | Admin Off?  |
 
 IAM Provide several benefits and functionalities
 
@@ -27,6 +27,4 @@ IAM Components:
     - Condition
 - Roles: An identity associated with permission policies, used to delegate access to users, application or services
   Which normally don’t have access to AWS services 
-
-
 
