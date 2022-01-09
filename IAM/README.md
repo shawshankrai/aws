@@ -7,12 +7,12 @@ Identity and Access Management. A core component of every AWS service is securit
 | Who are you?  | what you can do?  | Admin Off?  |
 
 IAM Provide several benefits and functionalities:
-    - AWS service permission
-    - Federated Identity
-    - Fined grained permission
-    - PCI (Payment card industry) Compliant
-    - Multi Factor Auth
-    - Billing: Free
+ - AWS service permission
+ - Federated Identity
+ - Fined grained permission
+ - PCI (Payment card industry) Compliant
+ - Multi Factor Auth
+ - Billing: Free
 
 IAM Components:
 
