@@ -4,7 +4,7 @@ Identity and Access Management. A core component of every AWS service is securit
 
 | Identity  | Access | Management |
 | ------------- | ------------- | ------------- |
-| Who are you?  | what you can do?  | Admin Off  |
+| Who are you?  | what you can do?  | Admin Off?  |
 
 IAM Provide several benefits and functionalities
 
@@ -14,3 +14,4 @@ IAM Provide several benefits and functionalities
     - PCI (Payment card industry) Compliant
     - Multi Factor Auth
     - Billing: Free
+    
