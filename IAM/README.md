@@ -14,7 +14,6 @@ Identity and Access Management. A core component of every AWS service is securit
     - Multi Factor Auth
     - Billing: Free
 2. IAM Components:
-
     - User: An Individual entity with a defined username. Better is to not use root user
         - Access type: 
             - Programmatic Access: Secrets
@@ -28,8 +27,9 @@ Identity and Access Management. A core component of every AWS service is securit
         - Collation of users.
         - Defined unique group name, Once defined do not change(it will change the ARN).
         - Have a policy Attached to it. A user in a group inherits policies of a group and can override its own policy, be different than a group.
-    - Roles: An identity associated with permission policies, used to delegate access to users, application or services
-    Which normally don’t have access to AWS services 
+    - Roles: 
+        - An identity associated with permission policies
+        - Used to delegate access to users, application or services Which normally don’t have access to AWS services 
     - Identity Providers: 
         - Integrates external identity database
         - Can assign permissions to users in that external IdP
