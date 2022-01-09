@@ -20,7 +20,7 @@
         }
     }
 
-3. Get Arn: --query and --output 
+3. Get Arn(Amazon Resource Names): --query and --output 
     Query: James Path queries are case sensitive, won't throw an error but will return null, 
         - Strings are mentioned in backtick,
         - Query in an apostrophe

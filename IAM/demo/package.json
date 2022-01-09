@@ -1,0 +1,16 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "Demo access based on roles",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test found! \" && exit 1"
+    },
+    "author": {
+        "name": "Shashank Rai",
+        "email": "shashank.xx92@gmail.com"
+    },
+    "dependencies": {
+        "aws-sdk": "2.1053.0"
+    }
+}
