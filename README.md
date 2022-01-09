@@ -1,4 +1,4 @@
-# aws
+# AWS
 Architectures are going cloud-neutral - Serverless, Microservices, Containers, and Container Orchestration. 
 Getting Started with AWS Certified Developer Associate
   - IAM
