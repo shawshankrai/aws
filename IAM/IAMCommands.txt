@@ -1,10 +1,35 @@
-PS C:\Users\shash> aws iam create-user --user-name shashank-exmp
-{
-    "User": {
-        "Path": "/",
-        "UserName": "shashank-exmp",
-        "UserId": "AIDA4BXSHA2I7JGVU3IO3",
-        "Arn": "arn:aws:iam::828362917521:user/shashank-exmp",
-        "CreateDate": "2022-01-09T19:05:06+00:00"
+1. Create User:
+    PS C:\Users\shash> aws iam create-user --user-name shashank-exmp
+    {
+        "User": {
+            "Path": "/",
+            "UserName": "shashank-exmp",
+            "UserId": "AIDA4BXSHA2I7JGVU3IO3",
+            "Arn": "arn:aws:iam::828362917521:user/shashank-exmp",
+            "CreateDate": "2022-01-09T19:05:06+00:00"
+        }
     }
-}
+
+2. Create Login profile and password:
+    PS C:\Users\shash> aws iam create-login-profile --user-name shashank-exmp --password Password123 --password-reset-required
+    {
+        "LoginProfile": {
+            "UserName": "shashank-exmp",
+            "CreateDate": "2022-01-09T19:11:27+00:00",
+            "PasswordResetRequired": true
+        }
+    }
+
+3. Get Arn: --query and --output 
+
+    Query: James Path queries are case sensitive, won't throw an error but will return null, 
+        - Strings are mentioned in backtick,
+        - Query in An apostrophe
+        - '|' grep to iterate over query output, case sensitive
+    Output: text
+
+    PS C:\Users\shash> aws iam list-policies --query 'Policies[?contains(PolicyName `AdministratorAccess`) == `true`] | [*].[PolicyName, Arn]' --output text
+    AdministratorAccess     arn:aws:iam::aws:policy/AdministratorAccess
+    AdministratorAccess-Amplify     arn:aws:iam::aws:policy/AdministratorAccess-Amplify
+    AdministratorAccess-AWSElasticBeanstalk arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk
+    AWSAuditManagerAdministratorAccess      arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess
