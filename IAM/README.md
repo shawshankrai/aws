@@ -6,7 +6,7 @@ Identity and Access Management. A core component of every AWS service is securit
 | ------------- | ------------- | ------------- |
 | Who are you?  | what you can do?  | Admin Off?  |
 
-IAM Provide several benefits and functionalities
+IAM Provide several benefits and functionalities:
     - AWS service permission
     - Federated Identity
     - Fined grained permission
@@ -14,7 +14,7 @@ IAM Provide several benefits and functionalities
     - Multi Factor Auth
     - Billing: Free
 
-    IAM Components:
+IAM Components:
 
 - User: An Individual entity with a defined username. Better is to not use root user
     - Access type: 
