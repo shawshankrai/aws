@@ -26,6 +26,11 @@ IAM Components:
     - Action
     - Resource
     - Condition
+- Groups: 
+	- Collation of users.
+	- Defined unique group name, Once defined do not change(it will change the ARN).
+	- Have a policy Attached to it. A user in a group inherits policies of a group and can override its own policy, be different than a group.
+
 - Roles: An identity associated with permission policies, used to delegate access to users, application or services
   Which normally don’t have access to AWS services 
 
