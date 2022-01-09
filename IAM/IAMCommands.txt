@@ -21,10 +21,9 @@
     }
 
 3. Get Arn: --query and --output 
-
     Query: James Path queries are case sensitive, won't throw an error but will return null, 
         - Strings are mentioned in backtick,
-        - Query in An apostrophe
+        - Query in an apostrophe
         - '|' grep to iterate over query output, case sensitive
     Output: text
 
@@ -33,3 +32,11 @@
     AdministratorAccess-Amplify     arn:aws:iam::aws:policy/AdministratorAccess-Amplify
     AdministratorAccess-AWSElasticBeanstalk arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk
     AWSAuditManagerAdministratorAccess      arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess
+
+4. Attach policy to user: string is in an apostrophe
+    PS C:\Users\shash> aws iam attach-user-policy --user-name shashank-exmp --policy-arn 'arn:aws:iam::aws:policy/AdministratorAccess'
+    No Output: means no errors
+    Verified in Console; Policy Attached
+
+
+
