@@ -14,3 +14,19 @@ IAM Provide several benefits and functionalities
     - PCI (Payment card industry) Compliant
     - Multi Factor Auth
     - Billing: Free
+
+IAM Components:
+- User: An Individual entity with a defined username. Better is to not use root user
+    - Access type: 
+        - Programmatic Access: Secrets
+        - AWS Management Console
+- Policy: A set of permissions 
+    - Effect
+    - Action
+    - Resource
+    - Condition
+- Roles: An identity associated with permission policies, used to delegate access to users, application or services
+  Which normally don’t have access to AWS services 
+
+
+
