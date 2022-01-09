@@ -33,3 +33,9 @@ Identity and Access Management. A core component of every AWS service is securit
     - Identity Providers: 
         - Integrates external identity database
         - Can assign permissions to users in that external IdP
+3. IAM Access Methods:
+	- AWS Management Console
+	- AWS CLI
+	- AWS SDKs
+	- IAM HTTPS API
+
