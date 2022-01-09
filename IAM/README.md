@@ -16,6 +16,7 @@ IAM Provide several benefits and functionalities
     - Billing: Free
 
 IAM Components:
+
 - User: An Individual entity with a defined username. Better is to not use root user
     - Access type: 
         - Programmatic Access: Secrets
