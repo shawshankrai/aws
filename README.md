@@ -5,7 +5,8 @@ Getting Started with AWS Certified Developer Associate
   - VPC
 
 
-[^1]: My reference.
+[^1]:
+My reference
 - ![Oreilly Learning](https://learning.oreilly.com/)
 - ![AWS Dev Guru](https://bitbucket.org/awsdevguru/)
 - ![in28Minutes](https://www.udemy.com/user/in28minutes/)
