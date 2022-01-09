@@ -38,5 +38,26 @@
     No Output: means no errors
     Verified in Console; Policy Attached
 
+5. Create Group:
+    PS C:\Users\shash> aws iam create-group --group-name secondary
+    {
+        "Group": {
+            "Path": "/",
+            "GroupName": "secondary",
+            "GroupId": "AGPA4BXSHA2IVV7U6PVC2",
+            "Arn": "arn:aws:iam::828362917521:group/secondary",
+            "CreateDate": "2022-01-09T19:58:51+00:00"
+        }
+    }
+
+6. Attach Group Policies:
+    PS C:\Users\shash> aws iam attach-group-policy --group-name secondary --policy-arn 'arn:aws:iam::aws:policy/AdministratorAccess'
+    No Output: means no errors
+    Verified in Console; Policy Attached
+
+7. Add User to group:
+    PS C:\Users\shash> aws iam add-user-to-group --group-name secondary --user-name shashank-exmp
+    No Output: means no errors
+    Verified in Console; User Attached
 
 
