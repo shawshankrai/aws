@@ -1,6 +1,6 @@
 # aws
 
 [^1]: My reference.
-- https://learning.oreilly.com/
-- AWS Dev Guru
-- https://www.udemy.com/user/in28minutes/
+- ![Oreilly Learning](https://learning.oreilly.com/)
+- ![AWS Dev Guru](https://bitbucket.org/awsdevguru/)
+- ![in28Minutes](https://www.udemy.com/user/in28minutes/)
