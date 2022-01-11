@@ -6,7 +6,8 @@ Getting Started with AWS Certified Developer Associate
 
 
 [^1]:
-My reference
+My reference:
+- ![Stephane Maarek](https://twitter.com/stephanemaarek)
 - ![Oreilly Learning](https://learning.oreilly.com/)
 - ![AWS Dev Guru](https://bitbucket.org/awsdevguru/)
 - ![in28Minutes](https://www.udemy.com/user/in28minutes/)
