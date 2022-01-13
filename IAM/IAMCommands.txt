@@ -59,6 +59,7 @@
     PS C:\Users\shash> aws iam add-user-to-group --group-name secondary --user-name shashank-exmp
     No Output: means no errors
     Verified in Console; User Attached
+    
 8. List Users:
     PS C:\Users\shash> aws iam list-users
     {
