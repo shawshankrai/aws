@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Webpage</title>
+    </head>
+    <body>
+        <h1>
+            I Love Monster !!!
+        </h1>
+        <p>Hello world</p>
+    </body>
+
+    <img src="photo-1.jpg" width="500"/>
+    
+    <!-- CORS demo -->
+    <div id="tofetch"/>
+    <script>
+        var tofetch = document.getElementById("tofetch");
+
+        fetch('https://s3-bucket-828362917521-001.s3.amazonaws.com/extra-page.html')
+        .then((response) => { 
+            return response.text();
+        })
+        .then((html) => {
+            tofetch.innerHTML = html     
+        });
+    </script>
+</html>
