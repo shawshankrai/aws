@@ -1,0 +1,172 @@
+{
+    "allowed": false,
+    "explicitDeny": false,
+    "matchedStatements": {
+        "items": []
+    },
+    "failures": {
+        "items": []
+    },
+    "context": {
+        "principal": {
+            "id": "AROA4BXSHA2IZ4RZFQ52E:i-0e6eff34d3ed62553",
+            "arn": "arn:aws:sts::828362917521:assumed-role/EC2ReadOnlyRole/i-0e6eff34d3ed62553"
+        },
+        "action": "ec2:RunInstances",
+        "resource": "arn:aws:ec2:us-east-1:828362917521:instance/*",
+        "conditions": {
+            "items": [
+                {
+                    "key": "ec2:InstanceMarketType",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "on-demand"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "aws:Resource",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "instance/*"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "aws:Account",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "828362917521"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:AvailabilityZone",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "us-east-1d"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:ebsOptimized",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "false"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:IsLaunchTemplateResource",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "false"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:InstanceType",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "t2.micro"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:RootDeviceType",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "ebs"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "aws:Region",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "us-east-1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "aws:Service",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "ec2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:InstanceID",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "*"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "aws:Type",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "instance"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:Tenancy",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "default"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "ec2:Region",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "us-east-1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "aws:ARN",
+                    "values": {
+                        "items": [
+                            {
+                                "value": "arn:aws:ec2:us-east-1:828362917521:instance/*"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
